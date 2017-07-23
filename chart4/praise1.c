@@ -6,7 +6,7 @@ int main(void){
     printf("what is your name:\n");
     scanf("%s",name);
     printf("hello,%s,%s\n",name,PRAISE);
-    printf("the letter of parise is %lu\n",strlen(PRAISE));
-    printf("the size of parise is %lu\n",sizeof PRAISE);
+    printf("the letter of parise is %lu\n",strlen(PRAISE));//字符串的可见长度
+    printf("the size of parise is %lu\n",sizeof PRAISE);//占据的字节
     return 0;
 }
