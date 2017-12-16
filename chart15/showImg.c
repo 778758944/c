@@ -15,11 +15,11 @@ int main(void){
 		puts("faild to open img");
 		exit(1);
 	}
-	fseek(img, 20L, SEEK_SET);
+	fseek(img, 0L, SEEK_SET);
 	while(fread(&temp, sizeof(char), 1, img) == 1){
-		putchar(temp);
-		// tt = (stander & temp);
-		// printf("%x%x",(stander & (temp >>= 4)), tt);
+		// putchar(temp);
+		tt = (stander & temp);
+		printf("%x%x",(stander & (temp >>= 4)), tt);
 		x += 1;
 	}
 
