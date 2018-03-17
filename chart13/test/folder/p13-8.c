@@ -5,7 +5,7 @@
 //  Created by xiaobo on 2017/12/15.
 //  Copyright © 2017年 xiaobo. All rights reserved.
 //
-
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -38,3 +38,4 @@ int main(int argc, char ** argv){
     printf("%d\n", arr[1]);
     return 0;
 }
+ */

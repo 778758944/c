@@ -18,7 +18,7 @@ int main(void){
 	puts("File contents:");
 	rewind(fp);
 	while(fscanf(fp,"%s",words) == 1){
-		puts(words);
+        puts(words);
 	}
 	if(fclose(fp) != 0){
 		fprintf(stderr,"Error closing file\n");
