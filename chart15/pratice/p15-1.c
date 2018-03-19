@@ -4,7 +4,7 @@
 //
 //  Created by xiaobo on 2018/3/14.
 //
-
+/*
 #include <stdio.h>
 #include <limits.h>
 #include <stdbool.h>
@@ -32,6 +32,7 @@ int toInt(char * arr){
     }
     return result;
 }
+*/
 
 
 

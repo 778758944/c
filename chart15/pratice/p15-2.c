@@ -4,7 +4,7 @@
 //
 //  Created by xiaobo on 2018/3/15.
 //
-
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -55,6 +55,7 @@ void toBin(int num, char * str){
     }
     str[len] = '\0';
 }
+ */
 
 
 
